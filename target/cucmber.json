@@ -1,0 +1,608 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-20T05:54:54.725Z",
+        "line": 3,
+        "name": "Checking book description",
+        "description": "",
+        "id": "clicking-the-description-of-book;checking-book-description",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33699000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User opens the browser and go to webpage",
+            "match": {
+              "location": "stepdef.ArrivalsStepDef.user_opens_the_browser_and_go_to_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10235000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click shop menu",
+            "match": {
+              "location": "stepdef.ArrivalsStepDef.user_click_shop_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13902000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on Home menu",
+            "match": {
+              "location": "stepdef.ArrivalsStepDef.user_click_on_Home_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 400000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "test home page has three arrivals only",
+            "match": {
+              "location": "stepdef.ArrivalsStepDef.test_home_page_has_three_arrivals_only()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "check its only have three arrivals",
+            "match": {
+              "location": "stepdef.ArrivalsStepDef.check_its_only_have_three_arrivals()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat stepdef.BookDescriptionStepDef.user_clicks_image_in_the_arrival(BookDescriptionStepDef.java:38)\r\n\tat ✽.user clicks image in the arrival(file:///D:/task/Tasks/features/BookDescription.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "user clicks image in the arrival",
+            "match": {
+              "location": "stepdef.BookDescriptionStepDef.user_clicks_image_in_the_arrival()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "check whether it is navigating to next page",
+            "match": {
+              "location": "stepdef.BookDescriptionStepDef.check_whether_it_is_navigating_to_next_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "add that book into basket",
+            "match": {
+              "location": "stepdef.BookDescriptionStepDef.add_that_book_into_basket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user clicks book description",
+            "match": {
+              "location": "stepdef.BookDescriptionStepDef.user_clicks_book_description()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "check the user can see description",
+            "match": {
+              "location": "stepdef.BookDescriptionStepDef.check_the_user_can_see_description()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Clicking the description of book",
+    "description": "",
+    "id": "clicking-the-description-of-book",
+    "keyword": "Feature",
+    "uri": "file:features/BookDescription.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-20T05:55:53.193Z",
+        "line": 3,
+        "name": "Adding and Checking book review",
+        "description": "",
+        "id": "clicking-the-review-of-book;adding-and-checking-book-review",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20812000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User opens the browser and go to webpage",
+            "match": {
+              "location": "stepdef.ArrivalsStepDef.user_opens_the_browser_and_go_to_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10855000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User click shop menu",
+            "match": {
+              "location": "stepdef.ArrivalsStepDef.user_click_shop_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27379000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click on Home menu",
+            "match": {
+              "location": "stepdef.ArrivalsStepDef.user_click_on_Home_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "test home page has three arrivals only",
+            "match": {
+              "location": "stepdef.ArrivalsStepDef.test_home_page_has_three_arrivals_only()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "check its only have three arrivals",
+            "match": {
+              "location": "stepdef.ArrivalsStepDef.check_its_only_have_three_arrivals()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat stepdef.BookDescriptionStepDef.user_clicks_image_in_the_arrival(BookDescriptionStepDef.java:38)\r\n\tat ✽.user clicks image in the arrival(file:///D:/task/Tasks/features/BookReview.feature:9)\r\n",
+              "duration": 16000000,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "user clicks image in the arrival",
+            "match": {
+              "location": "stepdef.BookDescriptionStepDef.user_clicks_image_in_the_arrival()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "check whether it is navigating to next page",
+            "match": {
+              "location": "stepdef.BookDescriptionStepDef.check_whether_it_is_navigating_to_next_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "add that book into basket",
+            "match": {
+              "location": "stepdef.BookDescriptionStepDef.add_that_book_into_basket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user clicks book Review",
+            "match": {
+              "location": "stepdef.BookReviewStepDef.user_clicks_book_Review()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "adds review for book",
+            "match": {
+              "location": "stepdef.BookReviewStepDef.adds_review_for_book(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "reviews",
+                  "Good Book about java script for beginner"
+                ]
+              },
+              {
+                "cells": [
+                  "name",
+                  "Abirami"
+                ]
+              },
+              {
+                "cells": [
+                  "email",
+                  "abiarthi10@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user clicks Submit",
+            "match": {
+              "location": "stepdef.BookReviewStepDef.user_clicks_Submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "check the user can see review",
+            "match": {
+              "location": "stepdef.BookReviewStepDef.check_the_user_can_see_review()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Clicking the Review of book",
+    "description": "",
+    "id": "clicking-the-review-of-book",
+    "keyword": "Feature",
+    "uri": "file:features/BookReview.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-20T05:56:52.427Z",
+        "line": 2,
+        "name": "Checking the arrivals navigation",
+        "description": "",
+        "id": "images-in-arrival-should-navigate;checking-the-arrivals-navigation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21844000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User opens the browser and go to webpage",
+            "match": {
+              "location": "stepdef.ArrivalsStepDef.user_opens_the_browser_and_go_to_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15576000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User click shop menu",
+            "match": {
+              "location": "stepdef.ArrivalsStepDef.user_click_shop_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16666000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on Home menu",
+            "match": {
+              "location": "stepdef.ArrivalsStepDef.user_click_on_Home_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "test home page has three arrivals only",
+            "match": {
+              "location": "stepdef.ArrivalsStepDef.test_home_page_has_three_arrivals_only()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "check its only have three arrivals",
+            "match": {
+              "location": "stepdef.ArrivalsStepDef.check_its_only_have_three_arrivals()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat stepdef.BookDescriptionStepDef.user_clicks_image_in_the_arrival(BookDescriptionStepDef.java:38)\r\n\tat ✽.user clicks image in the arrival(file:///D:/task/Tasks/features/Navigate.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "user clicks image in the arrival",
+            "match": {
+              "location": "stepdef.BookDescriptionStepDef.user_clicks_image_in_the_arrival()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "check whether it is navigating to next page",
+            "match": {
+              "location": "stepdef.BookDescriptionStepDef.check_whether_it_is_navigating_to_next_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "add that book into basket",
+            "match": {
+              "location": "stepdef.BookDescriptionStepDef.add_that_book_into_basket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "check the user can add to basket",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Images in arrival should navigate",
+    "description": "",
+    "id": "images-in-arrival-should-navigate",
+    "keyword": "Feature",
+    "uri": "file:features/Navigate.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-20T05:57:46.641Z",
+        "line": 2,
+        "name": "Checking three arrivals",
+        "description": "",
+        "id": "home-page-with-three-arrivals-only;checking-three-arrivals",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16843000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User opens the browser and go to webpage",
+            "match": {
+              "location": "stepdef.ArrivalsStepDef.user_opens_the_browser_and_go_to_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18792000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User click shop menu",
+            "match": {
+              "location": "stepdef.ArrivalsStepDef.user_click_shop_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3176000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on Home menu",
+            "match": {
+              "location": "stepdef.ArrivalsStepDef.user_click_on_Home_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 141000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "test home page has three arrivals only",
+            "match": {
+              "location": "stepdef.ArrivalsStepDef.test_home_page_has_three_arrivals_only()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "check its only have three arrivals",
+            "match": {
+              "location": "stepdef.ArrivalsStepDef.check_its_only_have_three_arrivals()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Home page with three arrivals only",
+    "description": "",
+    "id": "home-page-with-three-arrivals-only",
+    "keyword": "Feature",
+    "uri": "file:features/ThreeArrivals.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-20T05:58:25.794Z",
+        "line": 2,
+        "name": "Checking three slides",
+        "description": "",
+        "id": "home-page-with-three-slide-only;checking-three-slides",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14329000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User opens the browser and go to webpage",
+            "match": {
+              "location": "stepdef.ArrivalsStepDef.user_opens_the_browser_and_go_to_webpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13759000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User click shop menu",
+            "match": {
+              "location": "stepdef.ArrivalsStepDef.user_click_shop_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3451000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on Home menu",
+            "match": {
+              "location": "stepdef.ArrivalsStepDef.user_click_on_Home_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "test home page has three slides only",
+            "match": {
+              "location": "stepdef.SlidersStepDef.test_home_page_has_three_slides_only()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "check its only have three slides",
+            "match": {
+              "location": "stepdef.SlidersStepDef.check_its_only_have_three_slides()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Home page with three slide only",
+    "description": "",
+    "id": "home-page-with-three-slide-only",
+    "keyword": "Feature",
+    "uri": "file:features/ThreeSliders.feature",
+    "tags": []
+  }
+]
